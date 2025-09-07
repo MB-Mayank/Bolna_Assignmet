@@ -1,8 +1,7 @@
 # Bolna-Google Sheets Integration
 
 A robust Flask-based integration that automates voice calls using Bolna AI and tracks call data in real-time through Google Sheets. This system provides intelligent call management with retry logic, real-time updates, and comprehensive call tracking.
-Exposing Webhooks with Ngrok
-This guide explains how to use Ngrok to expose your local Flask server to receive webhook events from Bolna during development.
+
 Prerequisites
 
 A Flask server set up to receive webhook events.
@@ -10,7 +9,7 @@ An account with Ngrok.
 
 Steps
 1. Install Ngrok
-Download and install Ngrok from ngrok.com.
+
 2. Start Your Flask Server
 Run your Flask integration locally:
 python app.py
